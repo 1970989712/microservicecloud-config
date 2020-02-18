@@ -7,9 +7,14 @@ spring:
   profiles: dev
   application:
     name: a
-    
+
+server:
+  port: 3355
 ---
 spring:
   profiles: test
   application:
     name: b
+
+server:
+  port: 3366
